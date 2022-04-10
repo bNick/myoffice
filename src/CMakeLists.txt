@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.5)
 project(aicup2020)
 
+set (CMAKE_CXX_STANDARD 14)
+
 # OS and compiler checks.
 if(WIN32)
     add_definitions(-DWIN32)
